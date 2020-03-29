@@ -1,0 +1,67 @@
+@font-face{
+    font-family: SongFont;
+    src: url("Holiday Song.ttf");
+    font-weight: bold
+}
+.whitebg{
+    background-color: white;
+}
+body{
+    background-color: #DEF2F4;
+    font-family: 'SongFont', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.bluebg{
+    background-color: #74C8D2;
+}
+.bluetext{
+    color: #4D5F8D;
+}
+.newborder{
+    border-color: #74C8D2 !important;
+    border: 2px solid;
+    border-radius: 10%
+}
+h1{
+    font-size: 100px;
+    color: hotpink;
+}
+h2{
+    font-size: 40px;
+}
+h4{
+
+    font-size: 30px;
+    color: #74c8d2;
+    text-align: center;
+}
+p{
+    font-size: 30px;
+}
+.footer{
+  background: #152F4F;
+  color:white;
+  
+  .links{
+    ul {list-style-type: none;}
+    li a{
+      color: white;
+      transition: color .2s;
+      &:hover{
+        text-decoration:none;
+        color:#4180CB;
+        }
+    }
+  }  
+  .about-company{
+    i{font-size: 20px;}
+    a{
+      color:white;
+      transition: color .2s;
+      &:hover{color:#4180CB}
+    }
+  } 
+  .location{
+    i{font-size: 18px;}
+  }
+  .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+}
